@@ -1,0 +1,20 @@
+# Bỏ thư mục môi trường ảo
+venv/
+.env
+
+# Các file tạm, cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# VSCode hoặc IDE
+.vscode/
+.idea/
+
+# Mac & hệ điều hành
+.DS_Store
+
+# Render deployment config (nếu cần)
+*.render-build-log.txt
