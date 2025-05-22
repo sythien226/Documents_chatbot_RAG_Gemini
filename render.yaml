@@ -3,7 +3,7 @@ services:
     name: streamlit-doc-chat
     runtime: python
     buildCommand: pip install -r requirements.txt
-    startCommand: streamlit run app.py --server.port=10000 --server.enableCORS=false
+    startCommand: streamlit run app.py --server.port $PORT --server.address 0.0.0.0
     envVars:
       - key: GOOGLE_API_KEY
         value: ""  # hoặc để trống nếu cấu hình qua trang web Render
