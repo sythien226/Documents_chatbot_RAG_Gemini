@@ -1,0 +1,23 @@
+streamlit
+google-generativeai
+langchain
+PyPDF2
+chromadb
+faiss-cpu
+langchain_google_genai
+pdf2image
+pytesseract
+camelot-py
+paddleocr 
+paddlepaddle
+langchain_community
+python_dotenv
+numpy
+pdfplumber
+pillow
+camelot-py[cv]
+# poppler-utils
+# ghostscript
+# tesseract-ocr
+# tesseract-ocr-vie
+
